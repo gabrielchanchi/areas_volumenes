@@ -14,6 +14,9 @@ def calcular_volumen_cubo(lado):
  	volumen=lado**3
 	return volumen
 	
-
+#print(f"El volumen de un cilindro es {calcular_volumen_cilindro(4)}")
+def calcular_volumen_cilindro(radio,altura):
+	volumenc=math.pi*radio**2*altura
+	return volumenc
 	 
 	
