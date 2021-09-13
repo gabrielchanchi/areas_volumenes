@@ -7,7 +7,6 @@ def calcular_volumen_paralelepipedo(base,altura, alto):
 	volumen=base*altura*alto
 	return volumen
 
-	
 def calcular_volumen_esfera(radio)
 	area=(4/3)*math.pi*radio**3
 	return volumen
@@ -31,7 +30,7 @@ def calcular_volumen_cilindro(radio,altura):
 	 
 def calcular_area_trapecio(base, altura, superior):
 	area=((base+superior)*altura)/2
-  return area
+ 	return area
 
 def calcular_area_esfera (radio):
 	area= math.pi*radio**2
