@@ -8,10 +8,10 @@ def calcular_volumen_paralelepipedo(base,altura, alto):
 	return volumen
 
 def calcular_volumen_esfera(radio)
-	area=(4/3)*math.pi*radio**3
+	volumen=(4/3)*math.pi*radio**3
 	return volumen
 	 
-def calular_area_rombo (diagonal,diagonal1 ):
+def calcular_area_rombo (diagonal,diagonal1 ):
  	area=((diagonal*diagonal1)/2)
  	return area
 
