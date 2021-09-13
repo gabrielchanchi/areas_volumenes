@@ -12,10 +12,13 @@ def calcular_volumen_esfera(radio)
 	return volumen
 	 
 def calular_area_rombo (Diagonal,diagonal1 ):
-	area=((Diagonal*diagonal1)/2)
-	return area
+  area=((Diagonal*diagonal1)/2)
+  return area
 
 def calcular_volumen_cubo(lado):
- 	volumen=lado**3
+  volumen=lado**3
 	return volumen
 
+def calcular_area_esfera (radio):
+	area= math.pi*radio**2
+	return area
