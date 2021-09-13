@@ -6,14 +6,19 @@ def calcular_volumen_paralelepipedo(base,altura, alto):
 	volumen=base*altura*alto
 	return volumen
 
-def calular_area_rombo (Diagonal,diagonal1 ):
-	area=((Diagonal*diagonal1)/2)
-	return area
-
 def calcular_volumen_cubo(lado):
- 	volumen=lado**3
+	volumen=lado**3
 	return volumen
 	
+#print(f"El area del cuadrado es {calcular_area_cuadrado(4)}")
+
 
 	 
 	
+
+	
+	
+
+def calcular_area_trapecio(base, altura, superior):
+	area=((base+superior)*altura)/2
+	return area
