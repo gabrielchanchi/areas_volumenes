@@ -38,5 +38,5 @@ def calcular_area_esfera (radio):
 	return area
 
 def area_circulo(R):
-  area=math.pi*R**2
-  return area
+	area=math.pi*R**2
+	return area
