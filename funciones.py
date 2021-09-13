@@ -19,6 +19,10 @@ def calcular_volumen_cubo(lado):
  	volumen=lado**3
 	return volumen
 
+def calcular_volumen_cilindro(radio,altura):
+	volumenc=math.pi*radio**2*altura
+	return volumenc
+	 
 def calcular_area_esfera (radio):
-	area= math.pi*radio**2
+  area= math.pi*radio**2
 	return area
